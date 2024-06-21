@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAY FEES</title>
+    <link rel="stylesheet" href="payment.css">
+    </head>
+<body>
+    <form action="">
+        <h1>PAYMENT FORM</h1>
+        <p>*(Required Fields)</p>
+        <h2>Contact Information</h2>
+        <p>NAME:* <input type="text" name="name" required></p>
+        <p>ADDRESS:* <textarea name="address" id="address" cols="80" rows="7" required></textarea></p>
+        <p>EMAIL:* <input type="email" name="email" id="email" required></p>
+        <p>PINCODE:* <input type="number" name="pincode" id="pincode" required></p>
+        <hr>
+        <h2>Payment Info</h2>
+        <p>Card type
+            <select name="card_type" id="card_type">
+           <option value="">Select a card type</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">Master Card</option>
+        </select>
+        </p>
+        <p>Card Number:* <input type="number" name="card number" id="card number" required></p>
+        <p>Expire on:* <input type="date" name="expiry" id="expiry" required></p>
+        <p>CVV:* <input type="password" name="cvv" id="cvv" required></p>
+        <input type="submit" value="Pay now">
+    </form>
+    <h2>Method of online payment is not available yet,Please reach out the center for payments</h2>
+</body>
+</html>
